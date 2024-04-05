@@ -1,0 +1,46 @@
+Language model created by QuickLM on Sun Mar 31 05:35:40 EDT 2024
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 3 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=9
+ngram 3=6
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.3802 HELLO -0.2825
+-1.3802 HEY -0.2825
+-1.3802 HI -0.2825
+-1.3802 JACK -0.2430
+-1.3802 SIRI -0.2430
+-1.3802 WORLD -0.2430
+
+\2-grams:
+-0.7782 <s> HELLO 0.0000
+-0.7782 <s> HEY 0.0000
+-0.7782 <s> HI 0.0000
+-0.3010 HELLO WORLD 0.0000
+-0.3010 HEY SIRI 0.0000
+-0.3010 HI JACK 0.0000
+-0.3010 JACK </s> -0.3010
+-0.3010 SIRI </s> -0.3010
+-0.3010 WORLD </s> -0.3010
+
+\3-grams:
+-0.3010 <s> HELLO WORLD
+-0.3010 <s> HEY SIRI
+-0.3010 <s> HI JACK
+-0.3010 HELLO WORLD </s>
+-0.3010 HEY SIRI </s>
+-0.3010 HI JACK </s>
+
+\end\

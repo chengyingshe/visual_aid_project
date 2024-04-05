@@ -1,0 +1,49 @@
+Language model created by QuickLM on Sun Mar 31 05:55:12 EDT 2024
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=12
+ngram 3=6
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.5563 关闭手势识别 -0.2218
+-1.5563 图片理解 -0.2218
+-1.5563 开启手势识别 -0.2218
+-1.5563 文字识别 -0.2218
+-1.5563 语速减慢 -0.2218
+-1.5563 语速加快 -0.2218
+
+\2-grams:
+-1.0792 <s> 关闭手势识别 0.0000
+-1.0792 <s> 图片理解 0.0000
+-1.0792 <s> 开启手势识别 0.0000
+-1.0792 <s> 文字识别 0.0000
+-1.0792 <s> 语速减慢 0.0000
+-1.0792 <s> 语速加快 0.0000
+-0.3010 关闭手势识别 </s> -0.3010
+-0.3010 图片理解 </s> -0.3010
+-0.3010 开启手势识别 </s> -0.3010
+-0.3010 文字识别 </s> -0.3010
+-0.3010 语速减慢 </s> -0.3010
+-0.3010 语速加快 </s> -0.3010
+
+\3-grams:
+-0.3010 <s> 关闭手势识别 </s>
+-0.3010 <s> 图片理解 </s>
+-0.3010 <s> 开启手势识别 </s>
+-0.3010 <s> 文字识别 </s>
+-0.3010 <s> 语速减慢 </s>
+-0.3010 <s> 语速加快 </s>
+
+\end\
