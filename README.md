@@ -9,13 +9,13 @@
 1. 安装所需的Python库函数：
 
     - torch  # recommend GPU version
-- opencv-python==4.9.0.80
+    - opencv-python==4.9.0.80
     - mediapipe==0.10.11
-- TTS==0.22.0
+    - TTS==0.22.0
     - pocketsphinx==5.0.3
-- pygame==2.5.2
+    - pygame==2.5.2
     - websocket-client==1.7.0
-- urllib
+    - urllib
 2. 运行项目文件夹中的 `main.py` 程序
 
 ### 功能介绍
