@@ -8,7 +8,7 @@ import cv2
 import threading
 
 
-camera = Camera()
+camera = Camera(1)
 soundPlayer = SoundPlayer()
 ocrModel = OcrModel()
 imageUSModel = ImageUSModel()
@@ -36,7 +36,7 @@ def async_run_msg_receiver(socket):
             res_frame = cv2.imread(image_path)
             res_frame = plot_image_with_rectangles(res_frame, recs)
             whole_text = whole_text.replace('\n', ' ')
-            soundPlayer.play_sound(f'识别结果是{whole_text}')
+            soundPlayer.play_sound(f'识别结果是：{whole_text}' if whole_text != '' else '未识别到文字。')
 
         elif message == orders['image_understanding']:
             image_path = camera.save_frame_to_local()

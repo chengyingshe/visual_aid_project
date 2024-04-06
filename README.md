@@ -22,9 +22,11 @@
 
 ![1712327045720](README.assets/1712327045720.png)
 
+![1712330240306](README.assets/1712330240306.png)
+
 - 关键词检测（[参考文档](https://blog.51cto.com/u_16099203/7171249?abTest=51cto)）
 
-  > 由上图中可知，包含6条指令（==语速加快/语速减慢无效==）
+  > 由上图中可知，包含6条指令（**语速加快/语速减慢无效**）
 
 - 手势识别（使用[mediapipe库](https://developers.google.com/mediapipe/solutions/guide)）
 
