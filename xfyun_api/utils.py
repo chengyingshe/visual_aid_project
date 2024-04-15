@@ -2,9 +2,9 @@ import cv2
 
 
 parameters = {
-    'appid': '81ad0733',
-    'apisecret': 'NWY2NjU0ZTM1NzY1ZWNkMzk4NmYyNjkx',
-    'apikey': '575a56c98e20a0c70c3b6f310fdac451',
+    'appid': 'xxxx',
+    'apisecret': 'xxxx',
+    'apikey': 'xxxx',
     'urls': {
         'ocr': 'http://api.xf-yun.com/v1/private/hh_ocr_recognize_doc',
         'image_understading': 'wss://spark-api.cn-huabei-1.xf-yun.com/v2.1/image',

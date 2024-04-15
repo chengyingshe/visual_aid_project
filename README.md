@@ -4,7 +4,7 @@
 
 >  本项目意在开发一个盲人视觉辅助系统的科创项目
 
-### 项目运行方法
+### 项目运行
 
 1. 安装所需的Python库函数：
 
@@ -16,7 +16,17 @@
     - pygame==2.5.2
     - websocket-client==1.7.0
     - urllib
-2. 运行项目文件夹中的 `main.py` 程序
+    
+2. 免费领取/付费购买[讯飞开放平台](https://console.xfyun.cn/services)中的API服务
+
+    - 文字识别-[通用文字识别intsig](https://console.xfyun.cn/services/hh_cocr)
+    - 星火认知大模型-[图片理解](https://console.xfyun.cn/services/image)
+
+3. 修改`xfyun_api/utils.py`文件中的`parameters`中的`appid`,`apisecret`,`apikey`为自己的服务接口认证信息
+
+    ![1713171114624](README.assets/1713171114624.png)
+
+4. 运行项目文件夹中的 `main.py` 程序
 
 ### 功能介绍
 
@@ -30,7 +40,7 @@
 
 - 手势识别（使用[mediapipe库](https://developers.google.com/mediapipe/solutions/guide)）
 
-  > 识别两只手的食指指尖
+  > 获取两只手的食指指尖坐标
 
 - OCR文字识别（使用[讯飞通用文字识别intsig API](https://www.xfyun.cn/doc/words/universal-character-recognition/API.html)）
 
