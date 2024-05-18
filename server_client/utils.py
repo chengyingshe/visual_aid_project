@@ -2,7 +2,7 @@ import socket
  
 parameters = {
     'host': '127.0.0.1',  # 监听的IP地址
-    'port': 65432,  # 监听的端口号
+    'port': 6666,  # 监听的端口号
     'orders': {  # 自定义指令
         'ocr': '1',
         'image_understanding': '2',
